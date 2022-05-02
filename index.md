@@ -103,7 +103,7 @@ A large part of any earth-like plant is the ocean (approx. 70% I believe!) and a
   <details>
     <summary>Show Depth Sub Graph</summary>
 
-    [View full image](https://github.com/aSheedy99/SoularVRProject/blob/31a496e739868caa1bbc8f4d7d175790407973cc/docs/assets/depthNode.png)
+  [View full image](https://github.com/aSheedy99/SoularVRProject/blob/31a496e739868caa1bbc8f4d7d175790407973cc/docs/assets/depthNode.png)
 
   <p align="center">
     <img src="docs/assets/depthNode.png">
