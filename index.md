@@ -7,7 +7,7 @@
 
 
 
-Soular VR is an creative environment built for Meta Quest 2 that allows players to shape entire worlds with their own hands! This page will explore my contribution to the project, formatted in a chronological timeline and ending with a reflection. Soular was made as the final project for Goldsmith's MSc XR course. As well as myself, the piece was created by Seonjeong Park (Technical), Ebba Liepe (Art) and Nicalia ThompSon (Art). Soular was built in Unity using Meta's OVR Plugin.
+Soular VR is an creative environment built for Meta Quest 2 that allows players to shape entire worlds with their own hands! The project was inspired by creative sandbox games like <i> Minecraft </i> ,  <i> Spore </i> and <i> the Sims </i> This page will explore my contribution to the project, formatted in a chronological timeline and ending with a reflection. Soular was made as the final project for Goldsmith's MSc XR course. As well as myself, the piece was created by Seonjeong Park (Technical), Ebba Liepe (Art) and Nicalia ThompSon (Art). Soular was built in Unity using Meta's OVR Plugin.
 
 &nbsp;
 ### Player Gestures
