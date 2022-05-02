@@ -57,7 +57,18 @@ A main feature of Soular is the ability to paint the planet surface in different
 
 Whilst the artist side of the UI fell to other team members, it was my role to develop much of the functional side of the physical UI. I handled interactions by spawning sphere triggers on the finger tips of each hand, allowing me to easy detecting collisions with buttons. It was then a case of creating scripts that handled things like tab systems for swapping active model groups, or swapping and applying the chosen planetary ring.
 
-Colour Ring!
+I also created the system for choosing colours from a 'Colour Ring'. The colour ring uses a source image and the colour is set when the player taps the colour they want. The pixel where the user touches the colour ring is then sampled and the colour of that pixel is set as the custom colour. The below snippet is the function used for this:
+
+<details>
+  <summary>Show Code</summary>
+  
+    [View full image.](https://github.com/aSheedy99/SoularVRProject/blob/edd58203dab4c2b792333ce69a9c67d0a293f9c1/docs/assets/GetColourCarbonSnippet.png)
+  
+<p align="center">
+  <img src="docs/assets/GetColourCarbonSnippet.png">
+</p>
+  
+</details>
 
 
 &nbsp;
