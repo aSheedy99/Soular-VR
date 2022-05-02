@@ -2,7 +2,7 @@
 ### A Project Portfolio by Finn H Tanner
 
 <p align="center">
-  <img src="/docs/assets/SoularVRBlankPlanet.png?raw=true" alt="An empty, white, planet-like object hovers in mid-air. A ring-shaped table holds different coloured paints on the right, with the label 'Palette', and on the right, multiple buttons with the label 'Models'"/>
+  <img src="docs/assets/SoularVRBlankPlanet.png?raw=true" alt="An empty, white, planet-like object hovers in mid-air. A ring-shaped table holds different coloured paints on the right, with the label 'Palette', and on the right, multiple buttons with the label 'Models'"/>
 </p>
 
 
