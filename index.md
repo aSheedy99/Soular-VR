@@ -30,7 +30,8 @@ for(HandBones.Count)
   //calculate the distance between the current relative position and the recorded relative position
   float distance = (currentBonePosition - HandBones[i]).sqrMagnitude;
   
-  //check if this distance is below a developer-defined threshold, if so the current gesture is too different from the recorded gesture
+  //check if this distance is below a developer-defined threshold, 
+  //if so the current gesture is too different from the recorded gesture
   if(distance > tolerance * tolerance) return;
   
   //if it was not too far away, add this distance to the distance total
