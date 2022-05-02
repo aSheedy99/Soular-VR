@@ -89,6 +89,10 @@ I also created the system for choosing colours from a 'Colour Ring'. The colour 
 &nbsp;
 ### Ocean Shader Graph
 
+<p align="center">
+  <img src="docs/assets/manyOceans.png?raw=true" alt="Five planets set against a blue and purple star scape. Each planet has a different colour ocean: yellow, pink, red, blue, green. The land on all the planets is white."/>
+</p>
+
 A large part of any earth-like plant is the ocean (approx. 70% I believe!) and as such, we wanted the player to be able to create good looking oceans, lakes and rivers easily. Behind the scenes, this is simple a sphere with a custom shader that can be shrunk or expanded to raise and lower water level. Howvever, to give the player that extra 'alien world' field, we didn't want to restrict them to just earth-like blue oceans. To this effect, I created a shader that could be fed a colour and programatically choose a darker shade (for the ocean deapths) and a lighter shade (for the surf foam). as well as having a cartoonish shoreline animation to breathe some life into the planet.
 
 <details>
