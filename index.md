@@ -17,6 +17,8 @@ My main task for this project was creating a flexible and performant system capa
 <details>
   <summary>Show Code</summary>
   
+    [View full image.](https://github.com/aSheedy99/SoularVRProject/blob/edd58203dab4c2b792333ce69a9c67d0a293f9c1/docs/assets/PlayerGestureCarbonSnippet.png)
+  
 <p align="center">
   <img src="docs/assets/PlayerGestureCarbonSnippet.png">
 </p>
@@ -37,6 +39,8 @@ A main feature of Soular is the ability to paint the planet surface in different
 
 <details>
   <summary>Show Code</summary>
+  
+    [View full image.](https://github.com/aSheedy99/SoularVRProject/blob/edd58203dab4c2b792333ce69a9c67d0a293f9c1/docs/assets/VertexColourCarbonSnippet.png)
   
 <p align="center">
   <img src="docs/assets/VertexColourCarbonSnippet.png">
@@ -60,7 +64,7 @@ With the aim of being a creative sandbox for players to experience as they wish,
 <details>
   <summary>Show Journey</summary>
   
-  [Show full image.](https://github.com/aSheedy99/SoularVRProject/blob/91d393ff3e7897412c77b7cd7f7b38d2e52cd454/docs/assets/UserJourney.png)
+  [View full image.](https://github.com/aSheedy99/SoularVRProject/blob/91d393ff3e7897412c77b7cd7f7b38d2e52cd454/docs/assets/UserJourney.png)
   
 <p align="center">
   <img src="docs/assets/UserJourney.png">
