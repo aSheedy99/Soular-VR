@@ -81,6 +81,15 @@ I also created the system for choosing colours from a 'Colour Ring'. The colour 
   
 </details>
 
+&nbsp;
+### Additional Feature
+
+After completing the initial project, we were asked to add an additional feature to the project. I split this into two pieces since my primary additional would not be very obvious or visible.
+
+#### Input Debouncing
+
+Input debouncing is a feature every gaming controller comes with by default. Essentially, it is a way to 'smooth out' input signals, since buttons can often be 'noisy' especially when pressed and released, causing ghost inputs that could completely ruin a player's experience. However, this is not something that is natively included in my Gesture Recognition System and since it's very easy for small adjustments of the hands to cause input ghosting, I decided this should be my major addition to the project. This would serve to make interaction more enjoyable and accurate for players.
+
 
 &nbsp;
 ## User Journey
