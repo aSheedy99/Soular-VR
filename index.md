@@ -11,7 +11,7 @@ td, th {
   <img src="docs/assets/SoularVRBlankPlanet.png?raw=true" alt="An empty, white, planet-like object hovers in mid-air. A ring-shaped table holds different coloured paints on the right, with the label 'Palette', and on the right, multiple buttons with the label 'Models'"/>
 </p>
 
-Soular VR is an creative environment built for Meta Quest 2 that allows players to shape entire worlds with their own hands! The project was inspired by creative sandbox games like <i> Minecraft </i> ,  <i> Spore </i> and <i> the Sims </i> . This page will explore my contribution as a Techincal Developer to the project, formatted in a chronological order and ending with a short reflection. Soular was made as the final project for Goldsmith's MSc XR course. As well as myself, the piece was created by Seonjeong Park (Technical), Ebba Liepe (Art) and Nicalia ThompSon (Art). Soular was built in Unity using Meta's OVR Plugin.
+Soular VR is an creative environment built for Meta Quest 2 that allows players to shape entire worlds with their own hands! The project was inspired by creative sandbox games like <i> Minecraft </i> , <i> Spore </i> and <i> the Sims </i> . This page will explore my contribution as a Techincal Developer to the project, formatted in a chronological order and ending with a short reflection. Soular was made as the final project for Goldsmith's MSc XR course. As well as myself, the piece was created by Seonjeong Park (Technical), Ebba Liepe (Art) and Nicalia ThompSon (Art). Soular was built in Unity using Meta's OVR Plugin.
 
 &nbsp;
 ## Technical Overview
@@ -30,11 +30,6 @@ My main task for this project was creating a flexible and performant system capa
 </p>
   
 </details>
-
-&nbsp;
-In short,  each OVR hand consists of multiple bones (similar to a rigged model that will be animated). Each bone is a section of the hand, and thus the shape of the hand can be approximated to a good degree by recording their relative distance to some 'reference bones' (in our case, bone 0, the base of the palm). This gives us the shape of the hand - for instance we can tell if the hand is 'pointing'. However, some inputs may need more specific data. For this, I take the relative rotation of the reference bone to the player's head (the OVR camera). With this information, we can not only specify 'the player must be pointing to do X' but 'the playeer must be pointing to their left to do X'.
-
-When comparing the current hand to the recorded gestures, I simply take the distance of each bone's relative position to it's recorded counterpart. If this distance is below a certain threshold, it is considered close enough to be a match. If all bones are below this threshhold, the total distance is recorded. At the end, the lowest recorded total distance is considered the current gesture. A similar process happens for rotation, however here the Quaternion rotations are converted to angles for ease of comparison to a threshold float.
 
 &nbsp;
 ### Saving
@@ -57,7 +52,7 @@ A major feature we wanted to include in Soular was the ability for players to sa
 </details>
 
 &nbsp;
-The more complex part of this was telling the save data what object was being saved, since Game Objects weren't  something that could be formatted into binary. To solve this, each model is given an ID integer which correlates to a 'master list' of all models. When it comes to saving, only this integer, a position, rotation and colour are saved for each placed model. When the planet is loaded, the list is looped through, instantiating an instance of a prefab from the master list at the index specified, at the position and rotation specified etc. This increases the workload for creating models slightly, since they have to be added to the master list and given the appropriate ID, but makes it very quick and easy to save and load.
+The more complex part was telling the save data what object was being saved, since Game Objects aren't something that can be formatted into binary. To solve this, each model is given an ID integer which correlates to a 'master list' of all models. When it comes to saving, only this integer, a position, rotation and colour are saved for each placed model. When the planet is loaded, the list is looped through, instantiating an instance of a prefab from the master list at the index specified, at the position and rotation specified etc. This increases the workload for creating models slightly, since they have to be added to the master list and given the appropriate ID, but makes it very quick and easy to save and load.
 
 &nbsp;
 ### Painting
@@ -109,7 +104,7 @@ I also created the system for choosing colours from a 'Colour Ring'. The colour 
 |<img width="520" height="368" src="docs/assets/manyOceans.png?raw=true" alt="Five planets set against a blue and purple star scape. Each planet has a different colour ocean: yellow, pink, red, blue, green. The land on all the planets is white."/> | <img width="520" height="368" src="docs/assets/OceanColour.gif" alt="A disembodied hand presses a colour wheel control panel. As they do, the colour of a planet's ocean changes to match the colour the hand pressed"/> | 
 
 
-A large part of any earth-like plant is the ocean (approx. 70% I believe!) and as such, we wanted the player to be able to create good looking oceans, lakes and rivers easily. Behind the scenes, this is simple a sphere with a custom shader that can be shrunk or expanded to raise and lower water level. Howvever, to give the player that extra 'alien world' field, we didn't want to restrict them to just earth-like blue oceans. To this effect, I created a shader that could be fed a colour and programatically choose a darker shade (for the ocean deapths) and a lighter shade (for the surf foam). as well as having a cartoonish shoreline animation to breathe some life into the planet.
+We wanted the player to be able to create good looking oceans, lakes and rivers easily. Behind the scenes, this is a sphere that can be shrunk or expanded to raise and lower water level. Howvever, to give the player that extra 'alien world' field, we didn't want to restrict them to just earth-like blue oceans. To this effect, I created a shader that could be fed a colour and programatically choose a darker shade (for the ocean deapths) and a lighter shade (for the surf foam). as well as having a cartoonish shoreline animation to breathe some life into the planet.
 
 <details>
   <summary>Show Shader Graph</summary>
