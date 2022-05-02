@@ -32,7 +32,7 @@ With the aim of being a creative sandbox for players to experience as they wish,
 <details>
   <summary>Show Journey</summary>
   
-  [Show full image.](docs/assets/UserJourney.png)
+  [Show full image.](https://github.com/aSheedy99/SoularVRProject/blob/91d393ff3e7897412c77b7cd7f7b38d2e52cd454/docs/assets/UserJourney.png)
   
 <p align="center">
   <img src="docs/assets/UserJourney.png">
