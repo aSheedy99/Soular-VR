@@ -100,8 +100,6 @@ A large part of any earth-like plant is the ocean (approx. 70% I believe!) and a
   <img src="docs/assets/MainWaterShader.png">
 </p>
   
-  &nbsp;
-  
   <details>
     <summary>Show Depth Sub Graph</summary>
 
@@ -112,8 +110,6 @@ A large part of any earth-like plant is the ocean (approx. 70% I believe!) and a
     </p>
 
   </details>
-  
-    &nbsp;
   
   <details>
     <summary>Show Foam Sub Graph</summary>
