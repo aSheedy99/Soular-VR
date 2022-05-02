@@ -32,6 +32,8 @@ With the aim of being a creative sandbox for players to experience as they wish,
 <details>
   <summary>Show Journey</summary>
   
+  [Show full image.](docs/assets/UserJourney.png)
+  
 <p align="center">
   <img src="docs/assets/UserJourney.png">
 </p>
