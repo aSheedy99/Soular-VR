@@ -90,6 +90,18 @@ After completing the initial project, we were asked to add an additional feature
 
 Input debouncing is a feature every gaming controller comes with by default. Essentially, it is a way to 'smooth out' input signals, since buttons can often be 'noisy' especially when pressed and released, causing ghost inputs that could completely ruin a player's experience. However, this is not something that is natively included in my Gesture Recognition System and since it's very easy for small adjustments of the hands to cause input ghosting, I decided this should be my major addition to the project. This would serve to make interaction more enjoyable and accurate for players.
 
+I accomplished this by introducing a 'input buffer' that cycles for a defined amount of frames. Rather than directly setting the recognised input, a recognised gesture will instead be added to this buffer. After the specified amount of frames have passed, the most common gesture within the buffer would be set as the current gesture. I found five frames to be a good amount for this that balanced good debouncing with little noticeable latency of input. The below snippet is the core element of this buffer that uses a dictionary to track how many times each input was detecting over the debounce period.
+
+<details>
+  <summary>Show Code</summary>
+  
+  [View full image](https://github.com/aSheedy99/SoularVRProject/blob/a017f4cc5bc132e6824a6c23aa9d0ffbc3394620/docs/assets/DebounceDictionaryCarbonSnippet.png)
+  
+<p align="center">
+  <img src="docs/assets/DebounceDictionaryCarbonSnippet.png">
+</p>
+  
+</details>
 
 &nbsp;
 ## User Journey
