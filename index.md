@@ -57,7 +57,7 @@ The more complex part of this was telling the save data what object was being sa
 ### Painting
 
 <p align="center">
-  <img width="400" height="278" src="https://github.com/aSheedy99/Soular-VR/blob/72d2dbf3c803287b01f6df5e5f9bb59aeca80a8b/docs/assets/Painting.gif" alt="A gif of someone painting a planet. The surface starts white, but as they drag their finger across it, it turns yellow"/>
+  <img width="400" height="278" src="docs/assets/Painting.gif" alt="A gif of someone painting a planet. The surface starts white, but as they drag their finger across it, it turns yellow"/>
 </p>
 
 A main feature of Soular is the ability to paint the planet surface in different colours. For this, I created a vertex-colour shader that works with a 'paint brush' the player can use. When the brush collides with the planet, the colour of the vertices of the nearest chunk are changed to the chosen colour. We used a chunk system to limit how many vertices were check through to improve performance, since each one had a square distance check. The code below is a foreach loop that demonstrates a simplified version of how this works.
