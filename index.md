@@ -115,7 +115,7 @@ A large part of any earth-like plant is the ocean (approx. 70% I believe!) and a
   
     &nbsp;
   
-    <details>
+  <details>
     <summary>Show Foam Sub Graph</summary>
 
     [View full image](https://github.com/aSheedy99/SoularVRProject/blob/31a496e739868caa1bbc8f4d7d175790407973cc/docs/assets/FoamSubgraph.png)
