@@ -32,14 +32,25 @@ My main task for this project was creating a flexible and performant system capa
   <img src="docs/assets/SaveButton.png?raw=true" alt="A green button on a white table. The button has a 'book mark' logo on it. Above it in white text a label reads 'Save'"/>
 </p>
 
-A major feature we wanted to include in Soular was the ability for players to save and reload planets at a later time. I explored many methods of saving in Unity, and settled on Binary Formatting. I found this to be the most adaptable method with the only slight snag being any saved data had to be made of specific basic data types, which required at-runtime conversion of things into arrays of floats or integers.
+A major feature we wanted to include in Soular was the ability for players to save and reload planets at a later time. I explored many methods of saving in Unity, and settled on Binary Formatting. I found this to be the most adaptable method with the only slight snag being any saved data had to be made of specific basic data types, which required at-runtime conversion of things into arrays of floats or integers. Below is an example of a serializeable Colour class (or sColour for short):
+
+<details>
+  <summary>Show Code</summary>
+  
+  [View full image.](https://github.com/aSheedy99/SoularVRProject/blob/09d053874c6e17e8331b903e65ebb34111ff7c78/docs/assets/SaveableColourCarbonSnippet.png)
+  
+<p align="center">
+  <img src="docs/assets/SaveableColourCarbonSnippet.png">
+</p>
+  
+</details>
 
 The more complex part of this was telling the save data what object was being saved, since Game Objects werent something that could be formatted into binary. To solve this, each model is given an ID integer which correlates to a 'master list' of all models. When it comes to saving, only this integer, a position, rotation and colour are saved for each placed model. When the planet is loaded, the list is looped through, instantiating an instance of a prefab from the master list at the index specified, at the position and rotation specified etc. This increases the workload for creating models slightly, since they have to be added to the master list and given the appropriate ID, but makes it very quick and easy to save and load.
 
 &nbsp;
 ### Painting
 
-A main feature of Soular is the ability to paint the planet surface in different colours. For this, I created a vertex-colour shader that works with a 'paint brush' the player can use. When the brush collides with the planet, the colour of the vertices of the nearest chunk are changed to the chosen colour. We used a chunk system to limit how many vertices were check through to improve performance, since each one had a square distance check. The code below is a simplee foreach loop that demonstrates a simplified version of how this works.
+A main feature of Soular is the ability to paint the planet surface in different colours. For this, I created a vertex-colour shader that works with a 'paint brush' the player can use. When the brush collides with the planet, the colour of the vertices of the nearest chunk are changed to the chosen colour. We used a chunk system to limit how many vertices were check through to improve performance, since each one had a square distance check. The code below is a foreach loop that demonstrates a simplified version of how this works.
 
 <details>
   <summary>Show Code</summary>
