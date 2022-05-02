@@ -32,7 +32,7 @@ My main task for this project was creating a flexible and performant system capa
   <img src="docs/assets/SaveButton.png?raw=true" alt="A green button on a white table. The button has a 'book mark' logo on it. Above it in white text a label reads 'Save'"/>
 </p>
 
-A major feature we wanted to include in Soular was the ability for players to save and reload planets at a later time. I explored many methods of saving in Unity, and settled on Binary Formatting. I found this to be the most adaptable method with the only slight snag being any saved data had to be made of specific basic data types, which required at-runtime conversion of things into arrays of floats or integers. Below is an example of a serializeable Colour class (or sColour for short):
+A major feature we wanted to include in Soular was the ability for players to save and reload planets at a later time. I explored many methods of saving in Unity, and settled on Binary Formatting. I found this to be the most adaptable method with the only slight snag being any saved data had to be made of specific basic data types, which required at-runtime conversion of things into arrays of floats or integers. Below is an example of a serializable  Colour class (or sColour for short):
 
 <details>
   <summary>Show Code</summary>
@@ -46,7 +46,7 @@ A major feature we wanted to include in Soular was the ability for players to sa
 </details>
 
 &nbsp;
-The more complex part of this was telling the save data what object was being saved, since Game Objects werent something that could be formatted into binary. To solve this, each model is given an ID integer which correlates to a 'master list' of all models. When it comes to saving, only this integer, a position, rotation and colour are saved for each placed model. When the planet is loaded, the list is looped through, instantiating an instance of a prefab from the master list at the index specified, at the position and rotation specified etc. This increases the workload for creating models slightly, since they have to be added to the master list and given the appropriate ID, but makes it very quick and easy to save and load.
+The more complex part of this was telling the save data what object was being saved, since Game Objects weren't  something that could be formatted into binary. To solve this, each model is given an ID integer which correlates to a 'master list' of all models. When it comes to saving, only this integer, a position, rotation and colour are saved for each placed model. When the planet is loaded, the list is looped through, instantiating an instance of a prefab from the master list at the index specified, at the position and rotation specified etc. This increases the workload for creating models slightly, since they have to be added to the master list and given the appropriate ID, but makes it very quick and easy to save and load.
 
 &nbsp;
 ### Painting
@@ -111,7 +111,7 @@ I accomplished this by introducing a 'input buffer' that cycles for a defined am
 &nbsp;
 #### Accessibility Labels
 
-My secondary addition was a small adjsutment made with the idea of making the suite more accesible. Whilst I love the work the design team did on the icons, I couldn't help but think some people may have difficulties understanding the functions of some buttons. As such, I added a toggle that displays labels describing what each and every button does, in a clean sans-serif font for maximum readability. In the future, I would love to expand this to include audio description based on player gaze, but unfortanely did not have time to include that. Below is a comparison of the menu with and without labels.
+My secondary addition was a small adjustment made with the idea of making the suite more accessible. Whilst I love the work the design team did on the icons, I couldn't help but think some people may have difficulties understanding the functions of some buttons. As such, I added a toggle that displays labels describing what each and every button does, in a clean sans-serif font for maximum readability. In the future, I would love to expand this to include audio description based on player gaze, but unfortunately did not have time to include that. Below is a comparison of the menu with and without labels.
 
 <p align="center">
   <img src="docs/assets/comparisonLabels.png" alt="Two images of the same scene - a set of buttons on a table. The top image shows the buttons only with icons. The bottom shows buttons with descriptive text labels in a black, sans serif font"/>
