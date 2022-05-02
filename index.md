@@ -45,6 +45,7 @@ A major feature we wanted to include in Soular was the ability for players to sa
   
 </details>
 
+&nbsp;
 The more complex part of this was telling the save data what object was being saved, since Game Objects werent something that could be formatted into binary. To solve this, each model is given an ID integer which correlates to a 'master list' of all models. When it comes to saving, only this integer, a position, rotation and colour are saved for each placed model. When the planet is loaded, the list is looped through, instantiating an instance of a prefab from the master list at the index specified, at the position and rotation specified etc. This increases the workload for creating models slightly, since they have to be added to the master list and given the appropriate ID, but makes it very quick and easy to save and load.
 
 &nbsp;
