@@ -137,3 +137,15 @@ With the aim of being a creative sandbox for players to experience as they wish,
 ## Walkthrough Video
 
 <iframe align="center" width="560" height="315" src="https://www.youtube.com/embed/Bnriz6gGjxM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Reflection
+
+Overall, I am extremely proud of the final product myself and the team created. I believe we exceeded the goals we set for ourselves and made something genuinely fun, creative and innovative. However, there are still some key areas I would change looking back. Firstly, I would not use hand tracking were I to start from scratch. Whilst it is an incredible tool, and one I think is the future of VR, the Quest 2's hand tracking capabilities are simply subpar. Lighting can play havoc on the accuracy of tracking, with older British lights (like those in my apartment) apparently operating at a frequency that interferes with the cameras used for tracking.
+
+I originally wanted to used hand tracking for this project to create a more unique and equal experience for players, but when something as uncontrollable as the wiring in your house can have such an adverse effect on your experience, this becomes somewhat of a moot point. Perhaps this will be worth revisiting when LIDAR hand tracking becomes more widely available, since that does not require visible light.
+
+Whilst I was not in charge of the planet generation and terrain manipulation, I think changing from a chunk-based mesh to a marching cubes system would also greatly improve the experience, allowing players to make more interesting shapes and formations, including caves and overhangs, which are not possible in the current system.
+
+Finally, one feature I would love to include in the future would be shareability of planets, with players being able to send their creations to one another. Perhaps even this could become some kind of multi-player experience, where players can create planets in the same virtual space together, regardless of physical location.
+
+Looking at what I was able to include, I would say the most challenging part was the hand tracking system, and integrating it with areas other people worked on, like terrain manipulation. I think there is still a long way to go on optimising the code, even over the duration of the project I learnt many things that highlighted pitfalls in previous parts of the system that unfortunately we didn't have the time to 'de-weed'. The next iteration of this system will no doubt be far more performant and user friendly to boot, and I plan on making a free Unity Asset publicly available so others can use and expand my work in this area.
