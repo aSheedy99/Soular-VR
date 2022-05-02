@@ -13,18 +13,14 @@ Soular VR is an creative environment built for Meta Quest 2 that allows players 
 
 My main task for this project was creating a flexible and performant system capable of recording hand gestures as recognisable inputs using Meta's OVR Plugin for Unity. The following code is essentially the final function used for this (although it has been simplified for ease of reading):
 
-# A collapsible section with markdown
 <details>
-  <summary>Click to expand!</summary>
+  <summary>Show code</summary>
   
-  ## Heading
-  1. A numbered
-  2. list
-     * With some
-     * Sub bullets
-</details>
-
 <p align="center">
   <img src="docs/assets/PlayerGestureCarbonSnippet.png">
 </p>
+  
+</details>
+
+
 
