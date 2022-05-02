@@ -26,6 +26,11 @@ My main task for this project was creating a flexible and performant system capa
 </details>
 
 &nbsp;
+In short,  each OVR hand consists of multiple bones (similar to a rigged model that will be animated). Each bone is a section of the hand, and thus the shape of the hand can be approximated to a good degree by recording their relative distance to some 'reference bones' (in our case, bone 0, the base of the palm). This gives us the shape of the hand - for instance we can tell if the hand is 'pointing'. However, some inputs may need more specific data. For this, I take the relative rotation of the reference bone to the player's head (the OVR camera). With this information, we can not only specify 'the player must be pointing to do X' but 'the playeer must be pointing to their left to do X'.
+
+When comparing the current hand to the recorded gestures, I simply take the distance of each bone's relative position to it's recorded counterpart. If this distance is below a certain threshold, it is considered close enough to be a match. If all bones are below this threshhold, the total distance is recorded. At the end, the lowest recorded total distance is considered the current gesture. A similar process happens for rotation, however here the Quaternion rotations are converted to angles for ease of comparison to a threshold float.
+
+&nbsp;
 ### Saving
 
 <p align="center">
