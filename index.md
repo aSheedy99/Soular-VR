@@ -138,6 +138,7 @@ With the aim of being a creative sandbox for players to experience as they wish,
 
 <iframe align="center" width="560" height="315" src="https://www.youtube.com/embed/Bnriz6gGjxM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+&nbsp;
 ## Reflection
 
 Overall, I am extremely proud of the final product myself and the team created. I believe we exceeded the goals we set for ourselves and made something genuinely fun, creative and innovative. However, there are still some key areas I would change looking back. Firstly, I would not use hand tracking were I to start from scratch. Whilst it is an incredible tool, and one I think is the future of VR, the Quest 2's hand tracking capabilities are simply subpar. Lighting can play havoc on the accuracy of tracking, with older British lights (like those in my apartment) apparently operating at a frequency that interferes with the cameras used for tracking.
