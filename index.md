@@ -1,6 +1,8 @@
-<p align="center">
-## Welcome to GitHub Pages
-  </p>
+<p align="center"> <b>
+  
+Welcome to GitHub Pages
+  
+</p> </b>
 
 You can use the [editor on GitHub](https://github.com/aSheedy99/SoularVRProject/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
