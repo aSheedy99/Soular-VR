@@ -189,14 +189,14 @@ With the aim of being a creative sandbox for players to experience as they wish,
 &nbsp;
 ## Walkthrough Video
 
-<iframe align="center" width="560" height="315" src="https://www.youtube.com/embed/Bnriz6gGjxM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe align="center" width="560" height="315" src="https://www.youtube.com/embed/Vvjk8VuRY80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 &nbsp;
 ## Reflection
 
 Overall, I am extremely proud of the final product myself and the team created. I believe we exceeded the goals we set for ourselves and made something genuinely fun, creative and innovative. However, there are still some key areas I would change looking back. Firstly, I would not use hand tracking were I to start from scratch. Whilst it is an incredible tool, and one I think is the future of VR, the Quest 2's hand tracking capabilities are simply subpar. Lighting can play havoc on the accuracy of tracking, with older British lights (like those in my apartment) apparently operating at a frequency that interferes with the cameras used for tracking.
 
-I originally wanted to used hand tracking for this project to create a more unique and equal experience for players, but when something as uncontrollable as the wiring in your house can have such an adverse effect on your experience, this becomes somewhat of a moot point. Perhaps this will be worth revisiting when LIDAR hand tracking becomes more widely available, since that does not require visible light.
+I originally wanted to use hand tracking for this project to create a more unique and equal experience for players, but when something as uncontrollable as the wiring in your house can have such an adverse effect on your experience, this becomes somewhat of a moot point. Perhaps this will be worth revisiting when LIDAR hand tracking becomes more widely available, since that does not require visible light.
 
 Whilst I was not in charge of the planet generation and terrain manipulation, I think changing from a chunk-based mesh to a marching cubes system would also greatly improve the experience, allowing players to make more interesting shapes and formations, including caves and overhangs, which are not possible in the current system.
 
