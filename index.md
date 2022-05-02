@@ -17,7 +17,7 @@ My main task for this project was creating a flexible and performant system capa
 <details>
   <summary>Show Code</summary>
   
-    [View full image](https://github.com/aSheedy99/SoularVRProject/blob/edd58203dab4c2b792333ce69a9c67d0a293f9c1/docs/assets/PlayerGestureCarbonSnippet.png)
+  [View full image](https://github.com/aSheedy99/SoularVRProject/blob/edd58203dab4c2b792333ce69a9c67d0a293f9c1/docs/assets/PlayerGestureCarbonSnippet.png)
   
 <p align="center">
   <img src="docs/assets/PlayerGestureCarbonSnippet.png">
@@ -56,7 +56,7 @@ A main feature of Soular is the ability to paint the planet surface in different
 <details>
   <summary>Show Code</summary>
   
-    [View full image](https://github.com/aSheedy99/SoularVRProject/blob/edd58203dab4c2b792333ce69a9c67d0a293f9c1/docs/assets/VertexColourCarbonSnippet.png)
+  [View full image](https://github.com/aSheedy99/SoularVRProject/blob/edd58203dab4c2b792333ce69a9c67d0a293f9c1/docs/assets/VertexColourCarbonSnippet.png)
   
 <p align="center">
   <img src="docs/assets/VertexColourCarbonSnippet.png">
@@ -114,7 +114,7 @@ A large part of any earth-like plant is the ocean (approx. 70% I believe!) and a
   <details>
     <summary>Show Foam Sub Graph</summary>
 
-    [View full image](https://github.com/aSheedy99/SoularVRProject/blob/31a496e739868caa1bbc8f4d7d175790407973cc/docs/assets/FoamSubgraph.png)
+  [View full image](https://github.com/aSheedy99/SoularVRProject/blob/31a496e739868caa1bbc8f4d7d175790407973cc/docs/assets/FoamSubgraph.png)
 
   <p align="center">
     <img src="docs/assets/FoamSubgraph.png">
