@@ -26,6 +26,10 @@ My main task for this project was creating a flexible and performant system capa
 &nbsp;
 ### Saving
 
+A major feature we wanted to include in Soular was the ability for players to save and reload planets at a later time. I explored many methods of saving in Unity, and settled on Binary Formatting. I found this to be the most adaptable method with the only slight snag being any saved data had to be made of specific basic data types, which required at-runtime conversion of things into arrays of floats or integers.
+
+The more complex part of this was telling the save data what object was being saved, since Game Objects werent something that could be formatted into binary. To solve this, each model is given an ID integer which correlates to a 'master list' of all models. When it comes to saving, only this integer, a position, rotation and colour are saved for each placed model. When the planet is loaded, the list is looped through, instantiating an instance of a prefab from the master list at the index specified, at the position and rotation specified etc. This increases the workload for creating models slightly, since they have to be added to the master list and given the appropriate ID, but makes it very quick and easy to save and load.
+
 &nbsp;
 ### Painting
 
