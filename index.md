@@ -17,7 +17,7 @@ My main task for this project was creating a flexible and performant system capa
 <details>
   <summary>Show Code</summary>
   
-    [View full image.](https://github.com/aSheedy99/SoularVRProject/blob/edd58203dab4c2b792333ce69a9c67d0a293f9c1/docs/assets/PlayerGestureCarbonSnippet.png)
+    [View full image](https://github.com/aSheedy99/SoularVRProject/blob/edd58203dab4c2b792333ce69a9c67d0a293f9c1/docs/assets/PlayerGestureCarbonSnippet.png)
   
 <p align="center">
   <img src="docs/assets/PlayerGestureCarbonSnippet.png">
@@ -37,7 +37,7 @@ A major feature we wanted to include in Soular was the ability for players to sa
 <details>
   <summary>Show Code</summary>
   
-  [View full image.](https://github.com/aSheedy99/SoularVRProject/blob/09d053874c6e17e8331b903e65ebb34111ff7c78/docs/assets/SaveableColourCarbonSnippet.png)
+  [View full image](https://github.com/aSheedy99/SoularVRProject/blob/09d053874c6e17e8331b903e65ebb34111ff7c78/docs/assets/SaveableColourCarbonSnippet.png)
   
 <p align="center">
   <img src="docs/assets/SaveableColourCarbonSnippet.png">
@@ -55,7 +55,7 @@ A main feature of Soular is the ability to paint the planet surface in different
 <details>
   <summary>Show Code</summary>
   
-    [View full image.](https://github.com/aSheedy99/SoularVRProject/blob/edd58203dab4c2b792333ce69a9c67d0a293f9c1/docs/assets/VertexColourCarbonSnippet.png)
+    [View full image](https://github.com/aSheedy99/SoularVRProject/blob/edd58203dab4c2b792333ce69a9c67d0a293f9c1/docs/assets/VertexColourCarbonSnippet.png)
   
 <p align="center">
   <img src="docs/assets/VertexColourCarbonSnippet.png">
@@ -73,7 +73,7 @@ I also created the system for choosing colours from a 'Colour Ring'. The colour 
 <details>
   <summary>Show Code</summary>
   
-  [View full image.](https://github.com/aSheedy99/SoularVRProject/blob/332185426d9b1380365766179db5fab90ce652e0/docs/assets/GetColourCarbonSnippet.png)
+  [View full image](https://github.com/aSheedy99/SoularVRProject/blob/332185426d9b1380365766179db5fab90ce652e0/docs/assets/GetColourCarbonSnippet.png)
   
 <p align="center">
   <img src="docs/assets/GetColourCarbonSnippet.png">
@@ -90,7 +90,7 @@ With the aim of being a creative sandbox for players to experience as they wish,
 <details>
   <summary>Show Journey</summary>
   
-  [View full image.](https://github.com/aSheedy99/SoularVRProject/blob/91d393ff3e7897412c77b7cd7f7b38d2e52cd454/docs/assets/UserJourney.png)
+  [View full image](https://github.com/aSheedy99/SoularVRProject/blob/91d393ff3e7897412c77b7cd7f7b38d2e52cd454/docs/assets/UserJourney.png)
   
 <p align="center">
   <img src="docs/assets/UserJourney.png">
