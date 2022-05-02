@@ -1,4 +1,4 @@
-<p align="center", style = "font-size:30px", b> 
+<p align="center"; b> 
   
 Welcome to GitHub Pages
   
