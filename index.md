@@ -29,7 +29,16 @@ My main task for this project was creating a flexible and performant system capa
 &nbsp;
 ### Painting
 
-A main feature of Soular is the ability to paint the planet surface in different colours. For this, I created a vertex-colour shader that works with a 'paint brush' the player can use. When the brush collides with the planet, the colour of the vertices of the nearest chunk are changed to the chosen colour. We used a chunk system to limit how many vertices were check through to improve performance, since each one had a square distance check.
+A main feature of Soular is the ability to paint the planet surface in different colours. For this, I created a vertex-colour shader that works with a 'paint brush' the player can use. When the brush collides with the planet, the colour of the vertices of the nearest chunk are changed to the chosen colour. We used a chunk system to limit how many vertices were check through to improve performance, since each one had a square distance check. The code below is a simplee foreach loop that demonstrates a simplified version of how this works.
+
+<details>
+  <summary>Show Code</summary>
+  
+<p align="center">
+  <img src="docs/assets/VertexColourCarbonSnippet.png">
+</p>
+  
+</details>
 
 &nbsp;
 ### Menu and UI
