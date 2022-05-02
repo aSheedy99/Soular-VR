@@ -52,7 +52,7 @@ A major feature we wanted to include in Soular was the ability for players to sa
 </details>
 
 &nbsp;
-The more complex part was telling the save data what object was being saved, since Game Objects aren't something that can be formatted into binary. To solve this, each model is given an ID integer which correlates to a 'master list' of all models. When it comes to saving, only this integer, a position, rotation and colour are saved for each placed model. When the planet is loaded, the list is looped through, instantiating an instance of a prefab from the master list at the index specified, at the position and rotation specified etc. This increases the workload for creating models slightly, since they have to be added to the master list and given the appropriate ID, but makes it very quick and easy to save and load.
+The more complex part was telling the save data what object was being saved, since Game Objects aren't something that can be formatted into binary. To solve this, each model is given an ID integer which correlates to a 'master list' of all models. When it comes to saving, only this integer, a position, rotation and colour are saved for each placed model. When the planet is loaded, the list is looped through, instantiating an instance of a prefab from the master list at the index specified, at the position and rotation specified etc.
 
 &nbsp;
 ### Painting
@@ -148,7 +148,7 @@ After completing the initial project, we were asked to add an additional feature
 
 Input debouncing is a feature every gaming controller comes with by default. Essentially, it is a way to 'smooth out' input signals, since buttons can often be 'noisy' especially when pressed and released, causing ghost inputs that could completely ruin a player's experience. However, this is not something that is natively included in my Gesture Recognition System and since it's very easy for small adjustments of the hands to cause input ghosting, I decided this should be my major addition to the project. This would serve to make interaction more enjoyable and accurate for players.
 
-I accomplished this by introducing a 'input buffer' that cycles for a defined amount of frames. Rather than directly setting the recognised input, a recognised gesture will instead be added to this buffer. After the specified amount of frames have passed, the most common gesture within the buffer would be set as the current gesture. I found five frames to be a good amount for this that balanced good debouncing with little noticeable latency of input. The below snippet is the core element of this buffer that uses a dictionary to track how many times each input was detecting over the debounce period.
+I accomplished this by introducing a 'input buffer' that cycles for a defined amount of frames. Rather than directly setting the recognised input, a recognised gesture will instead be added to this buffer. After the specified amount of frames have passed, the most common gesture within the buffer is set as the current gesture. The below snippet is the core element of this buffer that uses a dictionary to track how many times each input was detecting over the debounce period.
 
 <details>
   <summary>Show Code</summary>
@@ -199,7 +199,5 @@ Overall, I am extremely proud of the final product myself and the team created. 
 I originally wanted to used hand tracking for this project to create a more unique and equal experience for players, but when something as uncontrollable as the wiring in your house can have such an adverse effect on your experience, this becomes somewhat of a moot point. Perhaps this will be worth revisiting when LIDAR hand tracking becomes more widely available, since that does not require visible light.
 
 Whilst I was not in charge of the planet generation and terrain manipulation, I think changing from a chunk-based mesh to a marching cubes system would also greatly improve the experience, allowing players to make more interesting shapes and formations, including caves and overhangs, which are not possible in the current system.
-
-Finally, one feature I would love to include in the future would be shareability of planets, with players being able to send their creations to one another. Perhaps even this could become some kind of multi-player experience, where players can create planets in the same virtual space together, regardless of physical location.
 
 Looking at what I was able to include, I would say the most challenging part was the hand tracking system, and integrating it with areas other people worked on, like terrain manipulation. I think there is still a long way to go on optimising the code, even over the duration of the project I learnt many things that highlighted pitfalls in previous parts of the system that unfortunately we didn't have the time to 'de-weed'. The next iteration of this system will no doubt be far more performant and user friendly to boot, and I plan on making a free Unity Asset publicly available so others can use and expand my work in this area.
