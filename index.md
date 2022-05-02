@@ -23,6 +23,21 @@ My main task for this project was creating a flexible and performant system capa
   
 </details>
 
+&nbsp;
+### Saving
+
+&nbsp;
+### Painting
+
+A main feature of Soular is the ability to paint the planet surface in different colours. For this, I created a vertex-colour shader that works with a 'paint brush' the player can use. When the brush collides with the planet, the colour of the vertices of the nearest chunk are changed to the chosen colour. We used a chunk system to limit how many vertices were check through to improve performance, since each one had a square distance check.
+
+&nbsp;
+### Menu and UI
+
+Whilst the artist side of the UI fell to other team members, it was my role to develop much of the functional side of the physical UI. I handled interactions by spawning sphere triggers on the finger tips of each hand, allowing me to easy detecting collisions with buttons. It was then a case of creating scripts that handled things like tab systems for swapping active model groups, or swapping and applying the chosen planetary ring.
+
+Colour Ring!
+
 
 &nbsp;
 ## User Journey
