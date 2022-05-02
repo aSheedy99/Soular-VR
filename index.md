@@ -77,7 +77,7 @@ A main feature of Soular is the ability to paint the planet surface in different
 &nbsp;
 ### Menu and UI
 
-Whilst the artist side of the UI fell to other team members, it was my role to develop much of the functional side of the physical UI. I handled interactions by spawning sphere triggers on the finger tips of each hand, allowing me to easy detecting collisions with buttons. It was then a case of creating scripts that handled things like tab systems for swapping active model groups, or swapping and applying the chosen planetary ring.
+Whilst the artistic side of the UI fell to other team members, it was my role to develop much of the functional side of the physical UI. I handled interactions by spawning sphere triggers on the finger tips of each hand, allowing me to easy detecting collisions with buttons. It was then a case of creating scripts that handled things like tab systems for swapping active model groups, or swapping and applying the chosen planetary ring.
 
 <p align="center">
   <img src="docs/assets/ColourWheel.png" alt="A 'Colour Wheel' above multiple colours of paint. The wheel contains many colours from across the colour spectrum.">
