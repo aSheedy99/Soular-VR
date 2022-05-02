@@ -87,6 +87,48 @@ I also created the system for choosing colours from a 'Colour Ring'. The colour 
 </details>
 
 &nbsp;
+### Ocean Shader Graph
+
+A large part of any earth-like plant is the ocean (approx. 70% I believe!) and as such, we wanted the player to be able to create good looking oceans, lakes and rivers easily. Behind the scenes, this is simple a sphere with a custom shader that can be shrunk or expanded to raise and lower water level. Howvever, to give the player that extra 'alien world' field, we didn't want to restrict them to just earth-like blue oceans. To this effect, I created a shader that could be fed a colour and programatically choose a darker shade (for the ocean deapths) and a lighter shade (for the surf foam). as well as having a cartoonish shoreline animation to breathe some life into the planet.
+
+<details>
+  <summary>Show Shader Graph</summary>
+  
+  [View full image](https://github.com/aSheedy99/SoularVRProject/blob/31a496e739868caa1bbc8f4d7d175790407973cc/docs/assets/MainWaterShader.png)
+  
+<p align="center">
+  <img src="docs/assets/MainWaterShader.png">
+</p>
+  
+  &nbsp;
+  
+  <details>
+    <summary>Show Depth Sub Graph</summary>
+
+    [View full image](https://github.com/aSheedy99/SoularVRProject/blob/31a496e739868caa1bbc8f4d7d175790407973cc/docs/assets/depthNode.png)
+
+    <p align="center">
+      <img src="docs/assets/depthNode.png">
+    </p>
+
+  </details>
+  
+    &nbsp;
+  
+    <details>
+    <summary>Show Foam Sub Graph</summary>
+
+    [View full image](https://github.com/aSheedy99/SoularVRProject/blob/31a496e739868caa1bbc8f4d7d175790407973cc/docs/assets/FoamSubgraph.png)
+
+    <p align="center">
+      <img src="docs/assets/FoamSubgraph.png">
+    </p>
+
+  </details>
+  
+</details>
+
+&nbsp;
 ### Additional Feature
 
 After completing the initial project, we were asked to add an additional feature to the project. I split this into two pieces since my primary additional would not be very obvious or visible.
