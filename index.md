@@ -103,6 +103,14 @@ I accomplished this by introducing a 'input buffer' that cycles for a defined am
   
 </details>
 
+#### Accessibility Labels
+
+My secondary addition was a small adjsutment made with the idea of making the suite more accesible. Whilst I love the work the design team did on the icons, I couldn't help but think some people may have difficulties understanding the functions of some buttons. As such, I added a toggle that displays labels describing what each and every button does, in a clean sans-serif font for maximum readability. In the future, I would love to expand this to include audio description based on player gaze, but unfortanely did not have time to include that. Below is a comparison of the menu with and without labels.
+
+<p align="center">
+  <img src="docs/assets/comparisonLabels.png">
+</p>
+
 &nbsp;
 ## User Journey
 
