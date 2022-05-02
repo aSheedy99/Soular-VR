@@ -1,8 +1,8 @@
-<p align="center"> <b>
+<p align="center", style = "font-size:30px", b> 
   
 Welcome to GitHub Pages
   
-</p> </b>
+</p>
 
 You can use the [editor on GitHub](https://github.com/aSheedy99/SoularVRProject/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
