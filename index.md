@@ -1,3 +1,9 @@
+<style>
+td, th {
+   border: none!important;
+}
+</style>
+
 # What Is Soular VR?
 ### A Project Portfolio by Finn H Tanner
 
@@ -97,8 +103,6 @@ I also created the system for choosing colours from a 'Colour Ring'. The colour 
 
 &nbsp;
 ### Ocean Shader Graph
-|gif  |pics |
-|-----|-----|
 |<p align="center"> <img width="520" height="368" src="docs/assets/manyOceans.png?raw=true" alt="Five planets set against a blue and purple star scape. Each planet has a different colour ocean: yellow, pink, red, blue, green. The land on all the planets is white."/> </p> | <p align="center"> <img width="520" height="368" src="docs/assets/OceanColour.gif" alt="A disembodied hand presses a colour wheel control panel. As they do, the colour of a planet's ocean changes to match the colour the hand pressed"/> </p> | 
 
 
